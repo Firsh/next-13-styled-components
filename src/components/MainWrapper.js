@@ -2,7 +2,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Div = styled.div`
+export default styled.div`
   width: 100%;
   max-width: 800px;
   padding: 16px 24px;
@@ -12,6 +12,3 @@ const Div = styled.div`
   background: white;
   filter:invert();
 `;
-export default function MainWrapper({ children }) {
-  return <Div>{children}</Div>;
-}
